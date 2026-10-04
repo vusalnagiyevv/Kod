@@ -17,5 +17,5 @@ public class ProductFilterDto {
     private String slug;
     private String name;
     private BigDecimal price;
-    private String photoUrl;
+    private String url;
 }
