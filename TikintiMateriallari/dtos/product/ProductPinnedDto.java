@@ -13,7 +13,7 @@ import java.math.BigDecimal;
 public class ProductPinnedDto {
     private Long id;
     private String name;
-    private String photoUrl;
+    private String url;
     private BigDecimal price;
     private String slug;
     private String categorySlug;
