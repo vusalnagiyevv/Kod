@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor    
 public class ProductPinnedDto {
     private Long id;
     private String name;
