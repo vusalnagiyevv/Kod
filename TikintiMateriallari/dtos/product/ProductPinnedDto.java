@@ -10,11 +10,10 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @AllArgsConstructor
-@NoArgsConstructor
 public class ProductPinnedDto {
     private Long id;
     private String name;
-    //private String photoUrl;
+    private String photoUrl;
     private BigDecimal price;
     private String slug;
     private String categorySlug;
